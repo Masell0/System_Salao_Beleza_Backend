@@ -1,0 +1,16 @@
+
+server:
+  port: 8081
+
+spring:
+  application:
+    name: tcc-masello
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/tccBackend?createDatabaseIfNotExist=true
+    username: root
+    password: root
+
+  flyway:
+    ignoreMissingMigrations: true
+    outOfOrder: true
